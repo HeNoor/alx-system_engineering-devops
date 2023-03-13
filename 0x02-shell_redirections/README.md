@@ -22,4 +22,8 @@ tail /etc/passwd
 
 head /etc/passwd
 
+**displays the third line of the file iacta**
+
+head -n 3 | tail -n 1
+
 
