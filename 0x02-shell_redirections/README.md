@@ -50,4 +50,11 @@ find -type d -not -name '.' | wc -l
 
 find . -mindepth 1 -type d | wc -l
 
+**displays the 10 newest files in the current directory.**
+
+ls -t | head
+
+** takes a list of words as input and prints only words that appear exactly once.**
+
+sort | uniq -u
 
