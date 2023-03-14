@@ -60,8 +60,11 @@ sort | uniq -u
 
 **Display lines containing the pattern “root” from the file /etc/passwd**
 
-grep -l 'root' /etc/passwd
+grep -i 'root' /etc/passwd
 
+**Display the number of lines that contain the pattern “bin” in the file /etc/passwd**
+
+grep -i 'bin' /etc/passwd | wc -l
 
 
 
