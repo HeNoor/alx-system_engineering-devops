@@ -58,3 +58,9 @@ ls -t | head
 
 sort | uniq -u
 
+**Display lines containing the pattern “root” from the file /etc/passwd**
+
+grep -l 'root' /etc/passwd
+
+
+
