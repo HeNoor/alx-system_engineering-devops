@@ -29,4 +29,8 @@ head -n 3 | tail -n 1
 **creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School**
 echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
 
+**writes into the file ls_cwd_content the result of the command ls -la**
+ls -la > ls_cwd_content
 
+**duplicates the last line of the file iacta**
+tail -n 1 iacta >> iacta
