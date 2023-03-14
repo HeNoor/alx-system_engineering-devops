@@ -41,4 +41,13 @@ tail -n 1 iacta >> iacta
 
 find . -type f -name "*.js" -delete
 
+**counts the number of directories and sub-directories in the current directory.
+
+The current and parent directories should not be taken into account
+Hidden directories should be counted**
+
+find -type d -not -name '.' | wc -l
+
+find . -mindepth 1 -type d | wc -l
+
 
