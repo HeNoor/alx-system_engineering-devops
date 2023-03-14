@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p | tr A-c Z-e
+read -p | tr 'A'-'c' 'Z'-'e'
