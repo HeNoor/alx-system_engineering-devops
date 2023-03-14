@@ -26,4 +26,7 @@ head /etc/passwd
 
 head -n 3 | tail -n 1
 
+**creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School**
+echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
+
 
